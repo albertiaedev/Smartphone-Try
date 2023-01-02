@@ -73,3 +73,16 @@ class Cellphone {
 		)
 	}
 }
+
+/*
+ *   Create an instance of this cellphone
+ */
+
+const cellphone = new Cellphone("Xiaomi Redmi 10", "2022", "6'", "HD", "8px", "5GB", "64GB");
+
+cellphone.mobileInfo();
+cellphone.turnItOnFunction();
+cellphone.takePictureFunction();
+cellphone.recordFunction();
+cellphone.resetFunction();
+cellphone.turnItOffFunction();
