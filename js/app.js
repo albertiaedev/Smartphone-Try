@@ -41,3 +41,11 @@ class Cellphone {
 			return off;
 		}
 	}
+
+	// take pictures
+	takePictureFunction() {
+		if (this.takePicture === true) {
+			let picture = document.write(`You took a picture with a ${this.cam}.`);
+			return picture;
+		}
+	}
