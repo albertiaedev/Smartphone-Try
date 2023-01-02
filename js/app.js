@@ -21,3 +21,12 @@ class Cellphone {
 			return on;
 		}
 	}
+
+	// turn off
+	turnItOffFunction() {
+		if (this.turnOff === false) {
+			let off = document.write(`You turned off your ${this.model}.`);
+			this.turnOff === true;
+			return off;
+		}	
+	}
