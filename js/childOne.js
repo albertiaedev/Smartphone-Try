@@ -9,4 +9,10 @@ class Smartphone extends Cellphone {
 		let slowMo = document.write(`Your ${this.model} is recording a video on slow motion.`);
 		return slowMo;
 	}
+
+	// facial recognition
+	facialRecognition() {
+		let facial = document.write(`Facial Recognition in your ${this.model} has been activated.`);
+		return facial;
+	}
 }
