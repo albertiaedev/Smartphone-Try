@@ -12,3 +12,12 @@ class Cellphone {
 		this.takePicture = true;
 		this.record = true;
 	}
+
+	// turn on
+	turnItOnFunction() {
+		if (this.turnOn === false) {
+			let on = document.write(`You turned on your ${this.model}.`);
+			this.turnOn === true;
+			return on;
+		}
+	}
