@@ -49,3 +49,11 @@ class Cellphone {
 			return picture;
 		}
 	}
+
+	// record
+	recordFunction() {
+		if (this.record === true) {
+			let recording = document.write(`You recorded a video with a ${this.cam}.`);
+			return recording;
+		}
+	}
