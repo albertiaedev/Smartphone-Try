@@ -57,3 +57,19 @@ class Cellphone {
 			return recording;
 		}
 	}
+
+	// mobile info
+	mobileInfo() {
+		return document.write(
+			`
+			Model: ${this.model}.<br>
+			Year: ${this.year}.<br>
+			Size: ${this.size}.<br>
+			Screen: ${this.screen}.<br>
+			Cam: ${this.cam}.<br>
+			RAM: ${this.ram}.<br>
+			Storage: ${this.storage}.<br>
+		`
+		)
+	}
+}
