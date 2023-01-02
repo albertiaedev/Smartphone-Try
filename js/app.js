@@ -8,7 +8,7 @@ class Cellphone {
 		this.ram = ram;
 		this.storage = storage;
 		this.turnOn = false;
-		this.turnOff = true;
+		this.turnOff = false;
 		this.takePicture = true;
 		this.record = true;
 	}
