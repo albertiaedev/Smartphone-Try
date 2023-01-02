@@ -30,3 +30,14 @@ class Cellphone {
 			return off;
 		}	
 	}
+
+	// reset
+	resetFunction() {
+		if (this.turnOn === true) {
+			let resetting = document.write(`Your ${this.model} is now resetting.`);
+			return resetting;
+		} else {
+			let off = document.write(`Your ${this.model} is currently turned off.`);
+			return off;
+		}
+	}
