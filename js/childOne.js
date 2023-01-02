@@ -32,3 +32,13 @@ class Smartphone extends Cellphone {
 		)
 	}
 }
+
+/*
+ *   Create an instance of this smartphone
+ */
+
+const smartphoneOne = new Smartphone("Xiaomi Redmi 10", "2022", "6'", "HD", "8px", "5GB", "64GB", "15px");
+
+smartphoneOne.smartphoneInfo();
+smartphoneOne.slowMotion();
+smartphoneOne.facialRecognition();
