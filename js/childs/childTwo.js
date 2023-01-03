@@ -26,3 +26,12 @@ class SmartphoneTwo extends Cellphone {
 		)
 	}
 }
+
+/*
+ *   Create an instance of this smartphone
+ */
+
+const smartphoneTwo = new SmartphoneTwo("Xiaomi Redmi 10", "2022", "6'", "HD", "8px", "5GB", "64GB", "32GB");
+
+smartphoneTwo.smartphoneTwoInfo();
+smartphoneTwo.extraRam();
